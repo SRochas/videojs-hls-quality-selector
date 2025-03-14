@@ -76,8 +76,10 @@
     "README.md": "doctoc --notitle"
   },
   "dependencies": {
-    "global": "^4.4.0",
-    "video.js": "^8"
+    "global": "^4.4.0"
+  },
+  "peerDependencies": {
+    "video.js": "^8.22.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -90,6 +92,7 @@
     "postcss-cli": "^8.3.1",
     "rollup": "^2.50.3",
     "sinon": "^9.1.0",
+    "video.js": "^8.22.0",
     "videojs-generate-karma-config": "~8.0.0",
     "videojs-generate-postcss-config": "~3.0.0",
     "videojs-generate-rollup-config": "~7.0.1",
